@@ -170,3 +170,70 @@
 #     print(s.upper())
 # else:
 #     print(s.lower())
+
+# t1 = ('Hello world')
+# t1 = 1,2,3
+# t1 = tuple((1, 2, 3))
+# t1 = (1,)
+
+
+
+# print(t1.count(1))
+# print(t1.index(2))
+
+# for i in t1:
+#     if i == ' ':
+#         continue
+#     print(f'"{i}"', end=' ')
+
+# t1 = (1, 2, 3,)
+# x, y, z = t1
+# print(x, y, z)
+
+# my_str = ['Око за око', 'А роза упала на лапу Азора', 'Около Миши молоко']
+# result = []
+#
+# for str_term in my_str:
+#     str_term1 = str_term.replace(' ', '')
+#     str_term1 = str_term1.lower()
+#     if str_term1 == str_term1[::-1]:
+#         result.append(str_term)
+# print(result)
+
+# l = list(range(1, 10))
+# l2 = list('hello')
+#
+# s = ''.join(map(str, l))
+#
+# print(s)
+
+
+
+            # -------------------------------
+            #          Множество
+            # -------------------------------
+
+# s = {'apple', 'orange', 'apple', 'pear', 'banana'}
+# s2 = set('hello')
+# s3 = {i for i in range(1, 11)}
+# s4 = set()
+# nums = [1, 2, 3, 1, 2, 3]
+# nums2 = list(set(nums))
+# print(nums2)
+
+# a = set('abracadabra')
+# b = set('alacazam')
+# c = a - b
+# d = a | b                       #обьединение
+# e = a & b                       #пересечение
+# f = a ^ b
+# print(a, b, c, d, e, sep='\n')
+
+# s = {'apple', 'orange', 'apple', 'pear', 'banana'}
+# s.add('melon')
+# s.discard('apple')
+# print(s)
+# a = frozenset('hello')
+
+
+
